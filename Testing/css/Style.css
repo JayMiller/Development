@@ -6,6 +6,10 @@ p {
 div {
  width: 500px;
  margin: auto;
- background: Purple;
+ background: #e3e3e3;
  text-align: center;
+}
+
+html {
+	background-color: #e3e3e3;
 }
