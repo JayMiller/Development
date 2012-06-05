@@ -1,2 +1,11 @@
 a {color: red; text-decoration:none}
-p { font-family: sans-serif:}
+p {
+ font-family: sans-serif;
+}
+
+div {
+ width: 500px;
+ margin: auto;
+ background: Purple;
+ text-align: center;
+}
