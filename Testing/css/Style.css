@@ -1,30 +1,35 @@
-a {color: red; text-decoration:none}
-p {
- font-family: sans-serif;
-}
-
-div {
- width: 500px;
- margin: auto;
- background: #e3e3e3;
- text-align: center;
-}
-
-html {
-	background-color: #e3e3e3;
-}
-
-
-
-
-wrap	{
-	background-color: red;
+.wrap	{
+	min-width: 600px;
+	width: 80%;
 	margin: auto;
-	width: 500px;
-	font-family: sans-serif;
+	background: green; /*assumes it has nothing below it*/
+	/*overflow: hidden; With no footer*/
 }
 
-.quote	{
-	border: 1px solid white;
+.content, aside {
+	height: 600px;  /*Try and not use heights*/
 
 }
+
+.content {
+	background: red;
+	float: left;
+	width: 80%;
+}
+
+aside {
+	background: brown;
+	float: left;
+	width: 20%;
+}
+
+aside ul {
+	list-styling: none:
+	padding: 0px;
+}
+
+footer {
+	clear: both;
+}
+
+/*with no footer*/
