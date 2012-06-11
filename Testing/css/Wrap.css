@@ -1,0 +1,19 @@
+ 
+
+body {
+	background-color: red;
+	font-family: sans-serif;
+}
+
+
+.wrap {
+	margin: auto;
+	width: 500px;
+}
+
+.quote {
+	border: 5px solid white;
+	text-align: center;
+	margin: 0px;
+}
+
