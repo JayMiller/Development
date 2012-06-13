@@ -19,3 +19,12 @@ textarea {
 	width:400px;
 	height:200px;
 }
+
+h1 {
+	background: url(../img/Cadre.png) no-repeat
+	text-indent: -9999px;
+	width: 142px;
+	height: 43px;
+	
+
+}
