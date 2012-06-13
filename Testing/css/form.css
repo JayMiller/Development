@@ -1,5 +1,6 @@
 body {
 	background-color: #666;
+	margin: zero;
 }
 
 h1 {
@@ -15,7 +16,17 @@ h1 {
 }
 
 
-
+.box {
+	width:400px;
+	height: 200px;
+	margin: auto;
+	background: red;
+	position: absolute;
+	left: 20px; top: 30px;
+	/*right: 200px;*/ /*from the top push*/
+	/*left: 400px;
+	top: 200px;*/
+}
 
 
 
