@@ -1,0 +1,63 @@
+h1 {
+	font-size: 40px;
+	text-align: Center;
+	margin-top: 50px;
+	font-family: cursive;
+	letter-spacing: -5px;
+	color: black;
+	text-transform: upppercase;
+	text-shadow: 0px 1px 0px white; /*width height blur color*/
+	font-variant: small-caps;
+
+}
+
+body {
+	background-color: #666;
+}
+
+p {
+	width: 500px;
+	text-align: Center;
+	margin: auto;
+}
+
+h2	{
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+
+h3	{
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+
+.name {
+	text-align: left;
+	width: 500px;
+	margin-right: auto;
+}
+
+.local	{
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+
+.time	{
+	text-align: right;
+	width: 500px;
+	margin-left: auto;
+}
+
+dl {
+	text-align: left;
+	Width: 550px;
+	margin: auto;
+}
+
+a {
+	text-decoration:none;
+	color: black;
+}
