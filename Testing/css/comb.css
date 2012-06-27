@@ -21,17 +21,19 @@ article img {
 
 .meta	{
 	padding-left: 0;
+
 }
 
 .meta a	{
 	display: inline;
 	font-style: italic;
+	text-decoration: none;
+	
 }
 
 .meta a:after {
-	content: '\\'
-	padding: 0 2px;
-	color: #999;
+	content: '\\';
+	padding-left: 2px;
 }
 
 .meta li:last-child:after {
@@ -45,5 +47,6 @@ article img {
 
 a {
 	color: #276056;
+	text-decoration: none;
 
 }
